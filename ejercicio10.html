@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Conversor</title>
+    <link rel="stylesheet" href="css/ejercicio10.css">
+</head>
+<body>
+    <div class="contenedor-formulario">
+        <h1>Calculadora de Temperatura</h1>
+        <p class="subtitulo">Celsius a Fahrenheit</p>
+
+        <!-- Grupo Celsius -->
+        <div class="grupo-formulario">
+            <label for="celsius">Grados Celsius</label>
+            <input type="number" id="celsius" placeholder="Ej. 25">
+        </div>
+
+        <!-- Botón -->
+        <button onclick="convertir()" class="boton-enviar">Convertir</button>
+
+        <!-- Grupo Resultado -->
+        <div class="grupo-formulario" style="margin-top: 20px;">
+            <label for="resultado">Grados Fahrenheit</label>
+            <input type="text" id="resultado" readonly>
+        </div>
+    </div>
+
+    <script src="js/ejercicio10.js"></script>
+</body>
+</html>

@@ -32,5 +32,13 @@ Los ejercicios me permitieron aprender y comprender como:
 - Ejercicio7 | Listas: receta de tacos al pastor
 - Ejercicio8 | Tabla de horario de clases
 - Ejercicio9 | Formulario de contacto con validación
-- Ejercicio10 | Calculadora: conversor Celsius → Fahrenheit
+- Ejercicio10 | Calculadora: conversor Celsius a Fahrenheit
+- Ejercicio11 | Calculadora: conversor Kilómetros a Millas
+- Ejercicio12 | Calculadora: conversor Pesos MX a Dolares USD
+- Ejercicio13 | Calculadora: conversor Verificador de edad
+- Ejercicio14 | Calculadora: conversor Análisis de Números
+- Ejercicio15 | Calculadora: conversor Registro de Estudiantes
+- Ejercicio16 | Calculadora: conversor Operaciones usando Funciones Flecha
+- Ejercicio17 | Calculadora: conversor Tareas guardadas en Local Storage
+- Ejercicio18 | Calculadora: conversor Manipulación del DOM
 - index | Pagina central con enlaces a cada ejercicio

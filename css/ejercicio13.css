@@ -1,9 +1,9 @@
 :root {
-    --color-primario: #927dc1;
-    --color-secundario: #4CC9F0;
-    --color-fondo: #F8F9FA;
-    --color-texto: #2B2D42;
-    --color-borde: #E9ECEF;
+    --color-primario: #d5662a;
+    --color-secundario:#d68c30;
+    --color-fondo: rgb(255, 226, 217);
+    --color-texto: rgb(71, 17, 0);
+    --color-borde: rgb(170, 42, 3);
 }
 
 * {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .subtitulo {
-    color: #6C757D;
+    color: #6c757d;
     margin-bottom: 30px;
 }
 
@@ -62,7 +62,7 @@ input {
 input:focus {
     border-color: var(--color-secundario);
     outline: none;
-    box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2);
+    box-shadow: 0 0 0 3px rgba(76, 201, 240 , 0.2);
 }
 
 .boton-enviar {
@@ -78,5 +78,5 @@ input:focus {
 }
 
 .boton-enviar:hover {
-    background-color: #2a0880;
+    background-color: rgb(146, 46, 9);
 }

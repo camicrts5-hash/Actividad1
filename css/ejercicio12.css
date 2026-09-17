@@ -1,9 +1,9 @@
 :root {
-    --color-primario: #927dc1;
-    --color-secundario: #4CC9F0;
-    --color-fondo: #F8F9FA;
-    --color-texto: #2B2D42;
-    --color-borde: #E9ECEF;
+    --color-primario: #2e8c11;
+    --color-secundario: #c4ff6c;
+    --color-fondo: #def8e0;
+    --color-texto: #002a02;
+    --color-borde: #bed5bc;
 }
 
 * {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .subtitulo {
-    color: #6C757D;
+    color: #2d6631;
     margin-bottom: 30px;
 }
 
@@ -78,5 +78,5 @@ input:focus {
 }
 
 .boton-enviar:hover {
-    background-color: #2a0880;
+    background-color: #115300;
 }

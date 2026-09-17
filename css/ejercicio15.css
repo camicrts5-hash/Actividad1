@@ -1,9 +1,9 @@
 :root {
-    --color-primario: #927dc1;
-    --color-secundario: #4CC9F0;
-    --color-fondo: #F8F9FA;
-    --color-texto: #2B2D42;
-    --color-borde: #E9ECEF;
+    --color-primario: #ae0e0e;
+    --color-secundario: #ff1616;
+    --color-fondo: rgb(243, 217, 217);
+    --color-texto: rgb(71, 0, 0);
+    --color-borde: rgb(181, 156, 156);
 }
 
 * {
@@ -36,12 +36,35 @@ h1 {
 }
 
 .subtitulo {
-    color: #6C757D;
+    color: #6c757d;
     margin-bottom: 30px;
 }
 
 .grupo-formulario {
     margin-bottom: 20px;
+}
+
+.boton-enviar {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+
+button + button {
+    background-color: var(--color-secundario);
+    margin-bottom: 25px;
+}
+
+button + button:hover {
+    background-color: rgb(33, 125, 148);
 }
 
 label {
@@ -65,18 +88,6 @@ input:focus {
     box-shadow: 0 0 0 3px rgba(76, 201, 240, 0.2);
 }
 
-.boton-enviar {
-    background-color: var(--color-primario);
-    color: white;
-    border: none;
-    padding: 14px 24px;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.3s;
-    width: 100%;
-}
-
 .boton-enviar:hover {
-    background-color: #2a0880;
+    background-color: rgb(103, 18, 18);
 }

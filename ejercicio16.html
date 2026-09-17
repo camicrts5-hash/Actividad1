@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16 - Calculadora con Funciones Flecha</title>
+    <link rel="stylesheet" href="css/ejercicio16.css">
+    <script src="js/ejercicio16.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="contenedor-formulario">
+        <h1>Calculadora Básica</h1>
+        <p class="subtitulo">Operaciones usando Funciones Flecha</p>
+
+        <!-- Grupo num1 -->
+        <div class="grupo-formulario">
+            <label for="numero1">Número 1</label>
+            <input type="text" id="numero1" placeholder="Ej. 10">
+        </div>
+
+        <!-- Grupo num2 -->
+        <div class="grupo-formulario">
+            <label for="numero2">Número 2</label>
+            <input type="text" id="numero2" placeholder="Ej. 5">
+        </div>
+
+        <!-- Botones -->
+        <button onclick="calcularOperacion('sumar')" class="boton-enviar">Sumar</button>
+        <button onclick="calcularOperacion('restar')" class="boton-enviar">Restar</button>
+        <button onclick="calcularOperacion('multiplicar')" class="boton-enviar">Multiplicar</button>
+        <button onclick="calcularOperacion('dividir')" class="boton-enviar">Dividir</button>
+
+        <!-- Resultado -->
+        <div class="grupo-formulario resultado-grupo">
+            <label for="resultado">Resultado</label>
+            <input type="text" id="resultado" readonly>
+        </div>
+    </div>
+</body>
+</html>

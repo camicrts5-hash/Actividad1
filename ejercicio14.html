@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14 - Operaciones con Arreglos</title>
+    <link rel="stylesheet" href="css/ejercicio14.css">
+    <script src="js/ejercicio14.js"></script>
+</head>
+
+<body>
+    <div class="contenedor-formulario">
+        <h1>Análisis de Números</h1>
+        <p class="subtitulo">Ingresa varios números separados por comas</p>
+
+        <!-- Grupo Entrada de Números -->
+        <div class="grupo-formulario">
+            <label for="numeros">Números</label>
+            <input type="text" id="numeros" placeholder="Ej. 10, 20, 30, 40, 50">
+        </div>
+
+        <!-- Botón Calcular -->
+        <button onclick="calcular()" class="boton-enviar">Calcular</button>
+
+        <!-- Resultado: Número Mayor -->
+        <div class="grupo-formulario" style="margin-top: 20px;">
+            <label for="mayor">Número Mayor</label>
+            <input type="text" id="mayor" readonly>
+        </div>
+
+        <!-- Resultado: Número Menor -->
+        <div class="grupo-formulario">
+            <label for="menor">Número Menor</label>
+            <input type="text" id="menor" readonly>
+        </div>
+
+        <!-- Resultado: Promedio -->
+        <div class="grupo-formulario">
+            <label for="promedio">Promedio</label>
+            <input type="text" id="promedio" readonly>
+        </div>
+    </div>
+</body>
+</html>

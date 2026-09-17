@@ -1,9 +1,9 @@
 :root {
-    --color-primario: #927dc1;
-    --color-secundario: #4CC9F0;
-    --color-fondo: #F8F9FA;
-    --color-texto: #2B2D42;
-    --color-borde: #E9ECEF;
+    --color-primario: #bf1e5c;
+    --color-secundario: #fa5aa2;
+    --color-fondo: rgb(250, 232, 241);
+    --color-texto: rgb(71, 0, 35);
+    --color-borde: rgb(252, 221, 239);
 }
 
 * {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .subtitulo {
-    color: #6C757D;
+    color: #6c757d;
     margin-bottom: 30px;
 }
 
@@ -75,8 +75,26 @@ input:focus {
     cursor: pointer;
     transition: background 0.3s;
     width: 100%;
+    margin-top: 10px;
 }
 
 .boton-enviar:hover {
-    background-color: #2a0880;
+    background-color: rgb(158, 17, 73);
+}
+
+button.boton-enviar + button.boton-enviar {
+    background-color: var(--color-secundario);
+}
+
+button.boton-enviar + button.boton-enviar + button.boton-enviar {
+    background-color: var(--color-primario);
+}
+
+button.boton-enviar + button.boton-enviar + button.boton-enviar + button.boton-enviar {
+    background-color: var(--color-secundario);
+    margin-bottom: 15px;
+}
+
+.resultado-grupo {
+    margin-top: 20px;
 }

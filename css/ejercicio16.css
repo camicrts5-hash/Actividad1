@@ -33,6 +33,7 @@ h1 {
     font-size: 24px;
     color: var(--color-primario);
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .subtitulo {
@@ -78,9 +79,15 @@ input:focus {
     margin-top: 10px;
 }
 
+.grupo-botones {
+    
+}
+
 .boton-enviar:hover {
     background-color: rgb(158, 17, 73);
 }
+
+button.
 
 button.boton-enviar + button.boton-enviar {
     background-color: var(--color-secundario);
